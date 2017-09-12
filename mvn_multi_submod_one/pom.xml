@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>mvn-multi-submod-one</artifactId>
+    <artifactId>mvn_multi_submod_one</artifactId>
 
 
 </project>
