@@ -2,16 +2,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>mvn-multi-mod-prj-flat</artifactId>
+        <groupId>exc.maven</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>exc.maven</groupId>
-    <artifactId>mvn_multi_mod_prj_flat</artifactId>
-    <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>../mvn_multi_submod_one</module>
-        <module>../mvn_multi_submod_two</module>
-    </modules>
+    <artifactId>mvn-multi-submod-one</artifactId>
 
 
 </project>
